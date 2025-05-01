@@ -6,3 +6,9 @@ pip install drf-yasg #Documentacion
 pip install django-filter #Filtros Dinámicos
 pip install Pillow #Imagen se envie y se guarde (Manejo de imagenes)
 pip install djangorestframework-simplejwt #Autenticacion con Json WebTokens
+
+#Revisa pip instalados
+pip freeze
+
+pip freeze > requirements.txt #Generar un archivo para paquetes
+pip install -r requirements.txt #Para instalar paquetes en un nuevo equipo
