@@ -1,1 +1,8 @@
+pip install djangorestframework #instala
+pip install django-cors-headers #instala cabeceras cors
 
+#Complementos
+pip install drf-yasg #Documentacion 
+pip install django-filter #Filtros Dinámicos
+pip install Pillow #Imagen se envie y se guarde (Manejo de imagenes)
+pip install djangorestframework-simplejwt #Autenticacion con Json WebTokens
