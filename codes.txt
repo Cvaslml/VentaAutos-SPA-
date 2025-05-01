@@ -12,3 +12,5 @@ pip freeze
 
 pip freeze > requirements.txt #Generar un archivo para paquetes
 pip install -r requirements.txt #Para instalar paquetes en un nuevo equipo
+
+django-admin startproject backend . #Inicializa el project (el punto para no crear una misma carpeta)
