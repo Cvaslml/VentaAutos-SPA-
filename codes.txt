@@ -14,3 +14,6 @@ pip freeze > requirements.txt #Generar un archivo para paquetes
 pip install -r requirements.txt #Para instalar paquetes en un nuevo equipo
 
 django-admin startproject backend . #Inicializa el project (el punto para no crear una misma carpeta)
+python manage.py startapp cars #Inicializa app 
+python manage.py migrate
+pthon manage.py createsuperuser
